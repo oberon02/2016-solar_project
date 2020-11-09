@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 # coding: utf-8
 # license: GPLv3
 
@@ -94,3 +96,4 @@ def write_space_objects_data_to_file(output_filename, space_objects):
 
 if __name__ == "__main__":
     print("This module is not for direct call!")
+>>>>>>> 33b960034c0c96851da72dfab42d62118c51a1be

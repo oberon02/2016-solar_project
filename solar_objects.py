@@ -11,29 +11,17 @@ class Star:
     type = "star"
     """Признак объекта звезды"""
 
-    m = 0
-    """Масса звезды"""
+    def __init__(self, m, x, y, Vx, Vy, Fx, Fy, R, color):
+        self.m = m
+        self.x = x
+        self.y = y
+        self.Vx = Vx
+        self.Vy = Vy
+        self.Fx = Fx
+        self.Fy = Fy
+        self.R = R
+        self.color = color
 
-    x = 0
-    """Координата по оси **x**"""
-
-    y = 0
-    """Координата по оси **y**"""
-
-    Vx = 0
-    """Скорость по оси **x**"""
-
-    Vy = 0
-    """Скорость по оси **y**"""
-
-    Fx = 0
-    """Сила по оси **x**"""
-
-    Fy = 0
-    """Сила по оси **y**"""
-
-    R = 5
-    """Радиус звезды"""
 
     color = "red"
     """Цвет звезды"""
@@ -51,32 +39,16 @@ class Planet:
     type = "planet"
     """Признак объекта планеты"""
 
-    m = 0
-    """Масса планеты"""
-
-    x = 0
-    """Координата по оси **x**"""
-
-    y = 0
-    """Координата по оси **y**"""
-
-    Vx = 0
-    """Скорость по оси **x**"""
-
-    Vy = 0
-    """Скорость по оси **y**"""
-
-    Fx = 0
-    """Сила по оси **x**"""
-
-    Fy = 0
-    """Сила по оси **y**"""
-
-    R = 5
-    """Радиус планеты"""
-
-    color = "green"
-    """Цвет планеты"""
+    def __init__(self, m, x, y, Vx, Vy, Fx, Fy, R, color):
+        self.m = m
+        self.x = x
+        self.y = y
+        self.Vx = Vx
+        self.Vy = Vy
+        self.Fx = Fx
+        self.Fy = Fy
+        self.R = R
+        self.color = color
 
     image = None
     """Изображение планеты"""

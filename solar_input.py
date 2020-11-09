@@ -47,6 +47,12 @@ def parse_star_parameters(line, star):
     **line** — строка с описание звезды.
     **star** — объект звезды.
     """
+    r = int(line.split()[1].lower())
+    color = eval(line.split()[2].lower())
+
+
+
+
 
     pass  # FIXME: not done yet
 

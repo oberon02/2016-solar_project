@@ -11,7 +11,9 @@ class Star:
     type = "star"
     """Признак объекта звезды"""
 
-    def __init__(self, m, x, y, Vx, Vy, Fx, Fy, R, color):
+    def __init__(self, R, color, m, x, y, Vx, Vy, Fx, Fy):
+        self.R = R
+        self.color = color
         self.m = m
         self.x = x
         self.y = y
@@ -19,11 +21,9 @@ class Star:
         self.Vy = Vy
         self.Fx = Fx
         self.Fy = Fy
-        self.R = R
-        self.color = color
 
-    color = "red"
-    """Цвет звезды"""
+
+
 
     image = None
     """Изображение звезды"""
@@ -39,6 +39,8 @@ class Planet:
     """Признак объекта планеты"""
 
     def __init__(self, m, x, y, Vx, Vy, Fx, Fy, R, color):
+        self.R = R
+        self.color = color
         self.m = m
         self.x = x
         self.y = y
@@ -46,8 +48,6 @@ class Planet:
         self.Vy = Vy
         self.Fx = Fx
         self.Fy = Fy
-        self.R = R
-        self.color = color
 
     image = None
     """Изображение планеты"""

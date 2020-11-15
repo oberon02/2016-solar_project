@@ -22,7 +22,6 @@ class Star:
         self.R = R
         self.color = color
 
-
     color = "red"
     """Цвет звезды"""
 

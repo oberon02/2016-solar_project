@@ -28,10 +28,10 @@ def move_space_object(body, dt):
     """
 
     ax = body.Fx/body.m
-    body.x += body.Vx * dt        # FIXED
+    body.x += body.Vx * dt        
     body.Vx += ax*dt
     ay = body.Fy / body.m
-    body.y += body.Vy * dt        # FIXED
+    body.y += body.Vy * dt        
     body.Vy += ay * dt
 
 
@@ -50,3 +50,4 @@ def recalculate_space_objects_positions(space_objects, dt):
 
 if __name__ == "__main__":
     print("This module is not for direct call!")
+
